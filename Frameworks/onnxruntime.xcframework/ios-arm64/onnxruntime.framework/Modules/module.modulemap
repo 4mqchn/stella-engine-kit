@@ -1,0 +1,9 @@
+framework module onnxruntime {
+  umbrella header "onnxruntime.h"
+  export *
+  module * { export * }
+  link framework "Foundation"
+  link framework "CoreML"
+  link "c++"
+  link "z"
+}
